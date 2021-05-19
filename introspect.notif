@@ -1,0 +1,4 @@
+dbus-send --session --dest=com.rnot.dbustest \
+--type=method_call --print-reply \
+/org/freedesktop/notify \
+org.freedesktop.DBus.Introspectable.Introspect
